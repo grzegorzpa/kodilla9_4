@@ -1,15 +1,14 @@
 function drawTree(n) {
-	for( i = 0; i <= n; i++) {
+	for(var i = 0; i <= n; i++) {
 		var star = '';
-		for ( j = 0; j < i; j++) {
-			var star = star += '*';
+		for(var j = 0; j < i; j++) {
+			star += '*';
 		};
 		console.log(star);
-		}
-	}
+	};
+};
 
-drawTree(7)
-
+drawTree(8);
 
 
 
